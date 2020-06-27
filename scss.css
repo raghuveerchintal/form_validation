@@ -46,7 +46,8 @@ h3{
 	border: none;
 	margin-top: 20px;
 	padding: 10px;
-	/* width: 100%; */
+	/* code changed by vedant now */
+	width: 100%;
 	border-radius: 25px;
 	background-color: aqua;
 	font-weight: bold;
