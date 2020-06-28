@@ -1,3 +1,5 @@
+
+/* my Nunito font */
 *{
 	margin: 0;
 	padding: 0;
@@ -42,18 +44,17 @@ h3{
 }
 
 #form button{
-	/* border:1px solid; */
 	border: none;
 	margin-top: 20px;
 	padding: 10px;
-	/* code changed by vedant now */
 	width: 100%;
 	border-radius: 25px;
 	background-color: aqua;
 	font-weight: bold;
 	cursor: pointer;
-	/* box-shadow: none; */
+	outline:none;
 }
+
 .inputBox{
 	position: relative;
 	margin-bottom: 20px;
