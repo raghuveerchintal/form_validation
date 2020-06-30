@@ -7,21 +7,24 @@
 }
 body{
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background: #373737;
+	background: url(pic6.jpg);
+	background-size: cover;
+	background-attachment: fixed;;
+	background-position: center;
 }
 .container{
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	border-radius: 25px;
 	transform: translate(-50%,-50%);
-	max-width: 400px;
-	width: 100%;
-	background-color: white;
-	padding: 25px;
-	border-radius: 50px;
+	width: 340px;
+	height: 420px;
+	background: #000;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+
 }
 h3{
 	
@@ -33,14 +36,14 @@ h3{
 }
 #form #email,
 #form #password{
-	width: 375px;
-	background: #292929;
+	width: 250px;
+	color: white;
+	border-radius: 5px;
 	outline: none;
 	border:none;
-	padding: 10px;
-	border-radius: 8px;
-	color: #fff;
-	font-style: 18px; 
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	height: 35px;
 }
 
 #form button{
@@ -48,8 +51,9 @@ h3{
 	margin-top: 20px;
 	padding: 10px;
 	width: 100%;
+	color: white;
 	border-radius: 25px;
-	background-color: aqua;
+	background-color: red;
 	font-weight: bold;
 	cursor: pointer;
 	outline:none;
@@ -58,15 +62,23 @@ h3{
 .inputBox{
 	position: relative;
 	margin-bottom: 20px;
+	padding: 8px;
 }
 	
 
 #text,#pass{
 	display: block;
-	color: #000;
+	color: #fff;
 	font-style: italic;
 	font-weight: 300;
 	padding: 5px;
 }
 
-
+.avtar{
+	widows: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}

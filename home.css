@@ -9,6 +9,10 @@
 }
 body{
 	background: rgba(0, 0, 0, 0.835);
+	background: url(pic7.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 nav{
